@@ -105,7 +105,7 @@ A common usage pattern is to use cfn\-init and cfn\-signal together\. The cfn\-s
                             [
                                 "#!/bin/bash -x\n",
                                 "# Install the files and packages from the metadata\n",
-                                "yum install -y aws-cfn-bootstrap",
+                                "yum install -y aws-cfn-bootstrap\n",
                                 "/opt/aws/bin/cfn-init -v ",
                                 "         --stack ",
                                 {
